@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Product_Dashboard
+
+1. To create a react app
+npx create-react-app product
+cd product
+
+
+2. Required dependancies
+npm install axios
+react-router-dom
+chart.js
+react-chartjs-2
+
+
+3.App Structure
+src/components/Dashboard.js - Dashboard view for listing data.
+src/components/AddProductForm.js - Form to add or edit data.
+src/components/GraphPage.js - Page containing the graphs.
+
+>>>>>>> 716463aaf9f44e825d35fa2e0320c4d1bd65cb8b
